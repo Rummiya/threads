@@ -1,27 +1,33 @@
-# vite-template-redux
+# Threads Clone — Минималистичная социальная платформа
 
-Uses [Vite](https://vitejs.dev/), [Vitest](https://vitest.dev/), and [React Testing Library](https://github.com/testing-library/react-testing-library) to create a modern [React](https://react.dev/) app compatible with [Create React App](https://create-react-app.dev/)
+Функциональный аналог Threads — социальной сети с лаконичным дизайном, авторизацией и возможностью создавать, просматривать и комментировать посты.
 
-```sh
-npx degit reduxjs/redux-templates/packages/vite-template-redux my-app
-```
+## 🚀 Стек технологий
 
-## Goals
+- **Frontend:** React, TypeScript, Redux Toolkit, RTK Query, React Hook Form, NextUI, TailwindCSS
+- **Backend:** Express.js, Prisma ORM, MongoDB
+- **DevOps:** Docker
+- **Аутентификация:** JWT (JSON Web Token)
 
-- Easy migration from Create React App or Vite
-- As beginner friendly as Create React App
-- Optimized performance compared to Create React App
-- Customizable without ejecting
+## 🔧 Основной функционал
 
-## Scripts
+- 📄 **Посты:** создание, отображение, лайки, комментарии
+- 👤 **Профили пользователей:** регистрация, авторизация, редактирование профиля, загрузка аватара
+- 📦 **RESTful API:** на базе Express + Prisma ORM
+- 🔐 **JWT-авторизация:** защищенные маршруты и проверка токена
+- 🔎 **Поиск:** полнотекстовый поиск пользователей
+- 🔗 **Клиент-серверная интеграция:** через RTK Query с полной типобезопасностью
+- 📱 **Адаптивный интерфейс:** продуманный UI с использованием NextUI и TailwindCSS
 
-- `dev`/`start` - start dev server and open browser
-- `build` - build for production
-- `preview` - locally preview production build
-- `test` - launch test runner
+## 🎯 Результат
 
-## Inspiration
+Создано полноценное fullstack-приложение, демонстрирующее ключевые принципы социальных сетей: взаимодействие между пользователями, подписки, публикации, обратная связь и безопасность.
 
-- [Create React App](https://github.com/facebook/create-react-app/tree/main/packages/cra-template)
-- [Vite](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react)
-- [Vitest](https://github.com/vitest-dev/vitest/tree/main/examples/react-testing-lib)
+## 🛠 Установка и запуск
+
+```bash
+git clone https://github.com/your-username/threads-clone.git
+cd threads-clone
+
+# Запуск в Docker
+docker-compose up --build
