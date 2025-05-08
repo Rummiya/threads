@@ -2,12 +2,14 @@
 
 Функциональный аналог Threads — социальной сети с лаконичным дизайном, авторизацией и возможностью создавать, просматривать и комментировать посты.
 
-## 🚀 Стек технологий
+## 🛠️ Стек
 
-- **Frontend:** React, TypeScript, Redux Toolkit, RTK Query, React Hook Form, NextUI, TailwindCSS
-- **Backend:** Express.js, Prisma ORM, MongoDB
-- **DevOps:** Docker
-- **Аутентификация:** JWT (JSON Web Token)
+- React
+- TypeScript
+- Redux Toolkit + RTK Query
+- React Hook Form
+- NextUI
+- TailwindCSS
 
 ## 🔧 Основной функционал
 
